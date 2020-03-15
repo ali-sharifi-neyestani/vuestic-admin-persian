@@ -1,0 +1,103 @@
+﻿body {
+  font-family: IRANSans !important;
+  font-weight: 300;
+  direction: rtl;
+  text-align: right !important;
+}
+
+h1, h2, h3, h4, h5, h6, input, textarea {
+  font-family: IRANSans !important;
+}
+
+.app-sidebar-link__item-icon + .app-sidebar-link__item-title {
+  margin-right: 0.5rem;
+}
+
+.app-sidebar-link__item-icon-right {
+  left: 0.75rem;
+}
+
+.app-sidebar-link__item {
+  padding: 0.75rem 0 0.75rem 0;
+  border-left: 0 !important;
+  border-right: 0.25rem solid transparent;
+}
+
+.app-sidebar-link-group__submenu a {
+  padding-right: 2.5rem;
+  text-align: right;
+}
+
+.app-navbar__text {
+  margin-left: 20px;
+}
+
+
+/*.va-button-group > .va-button + .va-button {*/
+/*  border-left: solid 0.125rem  !important;*/
+/*  border-right: 0px;*/
+/*}*/
+
+
+/*.va-button-group > .va-button:not(:last-child) {*/
+/*  border-radius: 30px !important;*/
+/*  border-top-left-radius: 0!important;*/
+/*  border-bottom-left-radius: 0!important;*/
+/*  border-left: 0!important;*/
+/*}*/
+
+/*.va-button-group > .va-button:not(:first-child) {*/
+/*  border-radius: 30px!important;*/
+/*  border-top-right-radius: 0!important;*/
+/*  border-bottom-right-radius: 0!important;*/
+/*  border-right: 0!important;*/
+/*}*/
+
+/*.va-button-group {*/
+/*    border-radius: 30px !important;*/
+/*  overflow: hidden;*/
+/*  display: inline-block !important;*/
+/*}*/
+
+/*.va-button-group > .va-button + .va-button {*/
+/*    border-left: solid 0.125rem !important;*/
+/*  border-top-right-radius: 0 !important;*/
+/*  border-bottom-right-radius: 0 !important;*/
+/*  border-right: 0 !important;*/
+/*}*/
+
+/*.va-button-group > .va-button + .va-button {*/
+/*  border-top-left-radius: 0 !important;*/
+/*  border-bottom-left-radius: 0 !important;*/
+/*  border-left: 0 !important;*/
+/*}*/
+/*.va-button-group > .va-button  {*/
+/*  border-radius: 0 !important;*/
+/*    border-left: solid 1px  !important;*/
+/*    border-right: solid 1px  !important;*/
+/*}*/
+
+/*.va-button-group .va-button--large {*/
+/*border-radius: 0 !important;*/
+/*}*/
+
+
+.va-button-group {
+  flex-direction: row-reverse;
+}
+
+
+.va-input__container__label, .va-select__label {
+  right: 0.5rem;
+  left: inherit !important;
+}
+
+.va-select__clear-icon, .va-select__open-icon {
+  right: inherit !important;
+  left: 2rem !important;
+
+}
+.va-select__open-icon {
+  right: inherit !important;
+   left: .5rem !important;
+}
