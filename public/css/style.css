@@ -97,7 +97,29 @@ h1, h2, h3, h4, h5, h6, input, textarea {
   left: 2rem !important;
 
 }
+
 .va-select__open-icon {
   right: inherit !important;
-   left: .5rem !important;
+  left: .5rem !important;
+}
+
+
+/* Dashboard */
+.va-card__header-actions {
+  margin-left: 0 !important;
+  margin-right: auto;
+}
+
+
+.va-message-list {
+  text-align: right;
+}
+
+.va-input__container__icon-wrapper--start {
+  margin-left: inherit !important;
+  margin-right: 0.5rem;
+}
+
+.va-select__input-wrapper {
+
 }
